@@ -272,8 +272,10 @@ async def get_help_msg(m: Message or CallbackQuery, help_option: str):
         else:
             mes = m
         help_msg = f"""
-Hey **[{mes.from_user.first_name}](http://t.me/{mes.from_user.username})**!I am Gojo✨.
-I'm here to help you manage your groups!
+ʜᴇʏ **[{mes.from_user.first_name}](http://t.me/{mes.from_user.username})**!ɪ'ᴍ 𝙶𝙾𝙹𝙾.
+➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+ɪ'ᴍ ᴛʜᴇ ᴍᴏsᴛ ᴩᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴩ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴀɴᴅ ɪ ʜᴀᴠᴇ sᴏᴍᴇ ᴄᴏᴏʟ ғᴇᴀᴛᴜʀᴇs ʟɪᴋᴇ
+➖➖➖➖➖➖➖➖➖➖➖➖➖➖
 Commands available:
 × /start: Start the bot
 × /help: Give's you this message."""
