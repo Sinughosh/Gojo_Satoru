@@ -54,7 +54,7 @@ async def gen_start_kb(q: Message or CallbackQuery):
                     "𝗬𝗢𝗪𝗔𝗜 𝗠𝗢⚡", "commands"
                 ),
                 (
-                    "👾 Bot info",
+                    "𝗕𝗢𝗧 𝗜𝗡𝗙𝗢 👾",
                     "bot_curr_info"
                 )
             ],
@@ -77,7 +77,7 @@ async def gen_start_kb(q: Message or CallbackQuery):
                     "url",
                 ),
                 (
-                    "Powered by",
+                    "𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬",
                     f"https://{Config.SUPPORT_CHANNEL}.t.me",
                     "url",
                 ),
