@@ -689,7 +689,7 @@ async def cleeeen(c:Gojo,m:Message):
         LOGGER.error(format_exc())
         return
 
-__PLUGIN__ = "devs"
+__PLUGIN__ = "𝗗𝗘𝗩𝗦"
 
 
 __HELP__ = """
