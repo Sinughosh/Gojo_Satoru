@@ -51,6 +51,6 @@ async def get_stats(_, m: Message):
         f"<b>Rᴜʟᴇs : Sᴇᴛ ɪɴ 107371 ᴄʜᴀᴛs\n"
         f"<b>Notes: 593818 in 10203 chats\n"
         f"<b>GBanned Users: 3976\n"
-        
+    ) 
     await replymsg.edit_text(rply, parse_mode=enums.ParseMode.HTML)
     return
