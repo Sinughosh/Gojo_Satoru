@@ -107,11 +107,11 @@ async def start(c: Gojo, m: Message):
                 
         try:
             cpt = f"""
-ʜᴇʏ [{m.from_user.first_name}](http://t.me/{m.from_user.username})! ɪ ᴀᴍ ɢᴏJᴏ ⚡.
-ɢᴏJᴏ ɪs ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘs !
+ʜᴇʏ [{m.from_user.first_name}](http://t.me/{m.from_user.username})! ɪ ᴀᴍ sᴀɪᴛᴀᴍᴀ ⚡.
+sᴀɪᴛᴀᴍᴀ ɪs ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘs !
 ᴛᴀᴘ ᴏɴ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ sᴇᴇ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs
 
-ɪ ᴀᴍ ɢᴏJᴏ sᴀᴛᴏʀᴜ ᴛʜᴇ ᴍᴏsᴛ ғᴀsᴛᴇsᴛ ʙᴏᴛ ɪ ʜᴀᴠᴇ ᴄᴏᴏʟ ғᴇᴀᴛᴜʀᴇs ʏᴏᴡᴀɪ ᴍᴏ"""
+ɪ ᴀᴍ sᴀɪᴛᴀᴍᴀ ᴛʜᴇ ᴍᴏsᴛ ғᴀsᴛᴇsᴛ ʙᴏᴛ ɪ ʜᴀᴠᴇ ᴄᴏᴏʟ ғᴇᴀᴛᴜʀᴇs ʏᴏᴡᴀɪ ᴍᴏ"""
 
             await m.reply_photo(
                 photo=str(choice(StartPic)),
@@ -146,11 +146,11 @@ async def start(c: Gojo, m: Message):
 async def start_back(_, q: CallbackQuery):
     try:
         cpt = f"""
-ʜᴇʏ [{q.from_user.first_name}](http://t.me/{q.from_user.username})! ɪ ᴀᴍ ɢᴏJᴏ ⚡.
-ɢᴏJᴏ ɪs ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘs !
+ʜᴇʏ [{q.from_user.first_name}](http://t.me/{q.from_user.username})! ɪ ᴀᴍ sᴀɪᴛᴀᴍᴀ ⚡.
+sᴀɪᴛᴀᴍᴀ ɪs ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘs !
 ᴛᴀᴘ ᴏɴ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ sᴇᴇ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs
 
-ɪ ᴀᴍ ɢᴏJᴏ sᴀᴛᴏʀᴜ ᴛʜᴇ ᴍᴏsᴛ ғᴀsᴛᴇsᴛ ʙᴏᴛ ɪ ʜᴀᴠᴇ ᴄᴏᴏʟ ғᴇᴀᴛᴜʀᴇs ʏᴏᴡᴀɪ ᴍᴏ"""
+ɪ ᴀᴍ sᴀɪᴛᴀᴍᴀ ᴛʜᴇ ᴍᴏsᴛ ғᴀsᴛᴇsᴛ ʙᴏᴛ ɪ ʜᴀᴠᴇ ᴄᴏᴏʟ ғᴇᴀᴛᴜʀᴇs ʏᴏᴡᴀɪ ᴍᴏ"""
 
         await q.edit_message_caption(
             caption=cpt,
@@ -169,7 +169,7 @@ async def commands_menu(_, q: CallbackQuery):
     try:
         cpt = f"""
 ʜᴇʏ **[{q.from_user.first_name}](http://t.me/{q.from_user.username})**! ɪ ᴀᴍ ɢᴏJᴏ ⚡.
-ɢᴏJᴏ ɪs ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘs !
+sᴀɪᴛᴀᴍᴀ ɪs ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘs !
 ᴄᴏᴍᴍᴀɴᴅs ᴀᴠᴀɪʟᴀʙʟᴇ:
 ▸ /start: sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ
 ▸ /help: ʜᴇʟᴘ ᴍᴇɴᴜ.
@@ -242,7 +242,7 @@ async def help_menu(_, m: Message):
             keyboard = ikb(ou, True)
             msg = f"""
 ʜᴇʏ **[{m.from_user.first_name}](http://t.me/{m.from_user.username})**!ɪ ᴀᴍ ɢᴏJᴏ ⚡.
-ɢᴏJᴏ ɪs ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘs !
+sᴀɪᴛᴀᴍᴀ ɪs ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘs !
 ᴄᴏᴍᴍᴀɴᴅs ᴀᴠᴀɪʟᴀʙʟᴇ:
 ▸ /start: sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ
 ▸ /help: ʜᴇʟᴘ ᴍᴇɴᴜ."""
@@ -275,11 +275,11 @@ async def give_curr_info(c: Gojo, q: CallbackQuery):
     delta_ping = time() - start
     await x.delete()
     txt = f"""
-🏓 Ping : {delta_ping * 1000:.3f} ms
-📈 Uptime : {up}
-🤖 Bot's version: {VERSION}
-🐍 Python's version: {PYTHON_VERSION}
-🔥 Pyrogram's version : {PYROGRAM_VERSION}
+ Ping : {delta_ping * 1000:.3f} ms
+ Uptime : {up}
+ Bot's version: {VERSION}
+ Python's version: {PYTHON_VERSION}
+ Pyrogram's version : {PYROGRAM_VERSION}
     """
     await q.answer(txt, show_alert=True)
     return
