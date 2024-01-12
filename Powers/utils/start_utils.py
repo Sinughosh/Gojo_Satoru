@@ -51,35 +51,11 @@ async def gen_start_kb(q: Message or CallbackQuery):
             ],
             [
                 (
-                    "𝗬𝗢𝗪𝗔𝗜 𝗠𝗢⚡", "commands"
+                    "𝗢𝗡𝗘 𝗣𝗨𝗡𝗖𝗛⚡", "commands"
                 ),
                 (
                     "𝗕𝗢𝗧 𝗜𝗡𝗙𝗢 👾",
                     "bot_curr_info"
-                )
-            ],
-            [
-                (
-                    "𝗥𝗘𝗣𝗢",
-                    "https://t.me/yumiko_source",
-                    "url",
-                ),
-                (
-                    "𝗢𝗪𝗡𝗘𝗥⚡",
-                    Config.OWNER_ID,
-                    "user_id",
-                ),
-            ],
-            [
-                (
-                    "𝗨𝗣𝗗𝗔𝗧𝗘𝗦",
-                    "https://t.me/+b-rYP7ApwpwyMDJl",
-                    "url",
-                ),
-                (
-                    "𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬",
-                    f"https://{Config.SUPPORT_CHANNEL}.t.me",
-                    "url",
                 ),
             ],
         ],
