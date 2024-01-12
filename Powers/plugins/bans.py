@@ -1044,7 +1044,7 @@ __alt_name__ = [
 ]
 
 __HELP__ = """
-**Bans**
+**𝗕𝗔𝗡𝗦**
 
 **Admin only:**
 • /kick: Kick the user replied or tagged.
