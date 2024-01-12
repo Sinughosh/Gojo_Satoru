@@ -17,7 +17,7 @@ from Powers.database.warns_db import Warns, WarnSettings
 from Powers.utils.custom_filters import command
 
 
-@Gojo.on_message(command("sthihyuats", dev_cmd=True))
+@Gojo.on_message(command("stats", dev_cmd=True))
 async def get_stats(_, m: Message):
     # initialise
     bldb = Blacklist
