@@ -58,6 +58,13 @@ async def gen_start_kb(q: Message or CallbackQuery):
                     "bot_curr_info"
                 ),
             ],
+            [
+                (
+                    "𝗠𝗔𝗜𝗡 𝗖𝗥𝗨𝗡𝗖𝗛𝗬𝗥𝗢𝗟𝗟 𝗜𝗡𝗗𝗜𝗔",
+                    "https://t.me/MAIN_CRUNCHYROLL_INDIA",
+                    "url",
+                ),
+            ],
         ],
     )
 
