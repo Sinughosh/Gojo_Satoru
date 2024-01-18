@@ -280,6 +280,7 @@ async def give_curr_info(c: Gojo, q: CallbackQuery):
  Bot's version: {VERSION}
  Python's version: {PYTHON_VERSION}
  Pyrogram's version : {PYROGRAM_VERSION}
+ Gcast:2938
     """
     await q.answer(txt, show_alert=True)
     return
