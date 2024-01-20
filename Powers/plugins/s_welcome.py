@@ -5,7 +5,7 @@ from pyrogram import *
 from pyrogram.types import *
 from logging import getLogger
 
-from Powers import app, LOG_CHANNEL_ID
+from Powers import Gojo, MESSAGE_DUMP
 from Powers.database.wel_db import *
 from Powers.Config import COMMAND_HANDLER
 
