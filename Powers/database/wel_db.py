@@ -1,4 +1,4 @@
-from HuTao.database import *
+from Powers.database import *
 
 wlcm = dbname["welcome"]
 
